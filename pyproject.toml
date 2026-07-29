@@ -1,0 +1,19 @@
+[project]
+name = "aicli"
+version = "0.1.0"
+description = "A local AI command line assistant"
+requires-python = ">=3.12"
+
+dependencies = [
+    "openai",
+    "typer",
+    "rich",
+    "python-dotenv"
+]
+
+[project.scripts]
+aicli = "aicli.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
