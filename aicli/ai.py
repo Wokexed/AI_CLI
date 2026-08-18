@@ -10,7 +10,7 @@ PROVIDER_CONFIGS = {
     "groq": {
         "base_url": "https://api.groq.com/openai/v1",
         "api_key_env": "GROQ_API_KEY",
-        "default_model": "llama-3.3-70b-versatile",
+        "default_model": "openai/gpt-oss-120b",
     },
     "ollama": {
         "base_url": "http://localhost:11434/v1",
